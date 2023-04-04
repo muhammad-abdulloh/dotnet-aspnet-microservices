@@ -11,6 +11,7 @@ namespace Catalog.API
 
         /// <summary>
         ///  temperatur
+        ///  davay bro
         /// </summary>
 
         public int TemperatureC { get; set; }
