@@ -8,7 +8,6 @@ namespace Catalog.API.Data
     {
         /// <summary>
         /// configure 
-        /// davay
         /// </summary>
         /// <param name="configuration"></param>
         public CatalogContext(IConfiguration configuration)
