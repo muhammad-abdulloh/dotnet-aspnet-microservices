@@ -16,6 +16,10 @@ namespace Catalog.API.Data
             }
         }
 
+        /// <summary>
+        /// mock dates
+        /// </summary>
+        /// <returns></returns>
         private static IEnumerable<Product> GetPreconfiguredProducts()
         {
             return new List<Product>()

@@ -18,9 +18,7 @@ namespace Catalog.API.Data
             Products = database.GetCollection<Product>(configuration.GetValue<string>("DatabaseSettings:CollectionName"));
 
             CatalogContextSeed.SeedData(Products);
-
         }
-
 
         /// <summary>
         /// this is product Collection  in Mongo DB
