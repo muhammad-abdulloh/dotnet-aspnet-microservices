@@ -11,6 +11,9 @@ namespace Catalog.API.Entities
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
         public string Id { get; set; }
 
+        /// <summary>
+        /// name
+        /// </summary>
         [BsonElement("Name")]
         public string Name { get; set; }
         public string Category { get; set; }
