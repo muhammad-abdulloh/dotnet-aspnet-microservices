@@ -7,6 +7,10 @@ namespace Catalog.API.Data
 {
     public class CatalogContextSeed
     {
+        /// <summary>
+        /// davay
+        /// </summary>
+        /// <param name="productCollection"></param>
         public static void SeedData(IMongoCollection<Product> productCollection)
         {
             bool existProduct = productCollection.Find(p => true).Any();
