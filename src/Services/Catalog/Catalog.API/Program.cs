@@ -17,7 +17,6 @@ namespace Catalog.API
         }
 
         /// <summary>
-        /// davay
         /// </summary>
         /// <param name="args"></param>
         /// <returns></returns>
