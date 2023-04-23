@@ -26,6 +26,7 @@ namespace Catalog.API.Data
         /// <returns></returns>
         private static IEnumerable<Product> GetPreconfiguredProducts()
         {
+            
             return new List<Product>()
             {
                 new Product()
