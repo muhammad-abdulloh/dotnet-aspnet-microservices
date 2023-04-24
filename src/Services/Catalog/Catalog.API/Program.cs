@@ -11,6 +11,10 @@ namespace Catalog.API
 {
     public class Program
     {
+        /// <summary>
+        /// main
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
