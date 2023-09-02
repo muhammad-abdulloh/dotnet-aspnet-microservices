@@ -24,5 +24,6 @@ namespace Catalog.API.Data
         /// this is product Collection  in Mongo DB
         /// </summary>
         public IMongoCollection<Product> Products { get; }
+
     }
 }
